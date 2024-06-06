@@ -16,7 +16,7 @@ probes:
     periodSeconds: 10
     successThreshold: 1
     failureThreshold: 3
-  liveness:
+  liveliness:
     path: /health/liveliness
     initialDelaySeconds: 1
     timeoutSeconds: 1
